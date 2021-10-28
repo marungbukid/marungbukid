@@ -10,9 +10,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
-      - run: ls
         with:
           persist-credentials: false
+
+      - name: List Directory
+      - run: ls
 
       - name: Cache  💾
         uses: actions/cache@v2
