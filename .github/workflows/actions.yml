@@ -27,12 +27,11 @@ jobs:
       - run: npm install
       - run: npm run build
         env:
-          CI: true
+          ci: true
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: out
-          CLEAN: true
+          branch: gh-pages
+          folder: out
+          clean: true
