@@ -13,9 +13,6 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: List Directory
-      - run: ls
-
       - name: Cache  💾
         uses: actions/cache@v2
         with:
@@ -24,6 +21,7 @@ jobs:
 
       - name: Install and Build 🔧
         uses: actions/setup-node@v1
+      - run: ls
       - run: npm install
       - run: npm run build
         env:
