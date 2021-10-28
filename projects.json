@@ -1,6 +1,6 @@
 [
   {
-    "title": "Theis Dist. Co.",
+    "title": "[Redacted] Order Management App",
     "description": "Android application that manages order entries that is appended to the flat file reciding in the FTP server. Used with Zebra devices that handles scanning of UPC barcode data.",
     "imageUrls": ["/tdc/1.png", "/tdc/2.png", "/tdc/3.png"],
     "year": 2021
@@ -35,11 +35,10 @@
     "year": 2020
   },
   {
-    "title": "IN*MidtownATL",
-    "description": "Android and iOS app that brings Midtown Alliance members special offers, unique experiences and cool discoveries. You must be at the deal location to redeem, so get out there and explore one of ATL's most vibrant neighborhoods.",
+    "title": "[Redacted] - ",
+    "description": "Android and iOS app that brings Atlanta members special offers, unique experiences and cool discoveries. You must be at the deal location to redeem, so get out there and explore one of ATL's most vibrant neighborhoods.",
     "imageUrls": ["/midtown/1.png", "/midtown/2.png", "/midtown/3.png"],
-    "year": 2020,
-    "url": "https://play.google.com/store/apps/details?id=com.midtownalliance&hl=en&gl=US"
+    "year": 2020
   },
   {
     "title": "FirstMetroSec GO",
@@ -67,7 +66,7 @@
     "imageUrls": ["/edb/1.png"]
   },
   {
-    "title": "G-Liner Engresso Systems",
+    "title": "[Redacted] Engresso Systems",
     "description": "Desktop Application that manages bus tickets from manual entry of the conductors."
   }
 ]
